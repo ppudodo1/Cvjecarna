@@ -1,0 +1,25 @@
+:root{
+    --clr-primary:#EF0074;
+    --clr-secondary:#A92DF3;
+    --clr-gradient: linear-gradient(to right,var(--clr-primary),var(--clr-secondary));
+    --clr-black: #282225;
+    --clr-black75:#544F51;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Playfair Display", serif;
+    
+}
+
+a{
+    color: var(--clr-black);
+    text-decoration: none;
+    transition: color 0.4s;
+}
+a:hover{
+    color: var(--clr-primary);
+}
+

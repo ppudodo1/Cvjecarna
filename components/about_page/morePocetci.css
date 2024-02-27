@@ -1,0 +1,34 @@
+.morePocetci{
+    background-color: var(--clr-secondary);
+    color: white;
+    height: 22.688rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.morePocetci__desc{
+  
+    width: 80%;
+    font-family: 'Lora';
+    font-size: 20px;
+}
+@media (max-width:1024px) {
+    .morePocetci{
+        
+    }
+    .morePocetci__desc{
+        width: 80%;
+        font-family: 'Lora';
+        font-size: 18px;
+    }
+}
+@media (max-width:768px) {
+    
+    .morePocetci__desc{
+        width: 80%;
+        font-family: 'Lora';
+        font-size: 14px;
+    }
+}

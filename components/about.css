@@ -1,0 +1,133 @@
+.about{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+}
+.about__img{
+    width: 35%;
+    display: flex;
+}
+.about__content{
+    width: 60%;
+}
+
+.about__gallery{
+    margin-left: 31px;
+    width: 90%;
+    height: 400px;
+    background-image: url('../public/roses.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.about__content{
+    
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.about__title{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 40px;
+    color: var(--clr-primary);
+    font-weight: 500;
+}
+.about__desc{
+    max-width: 709px;
+    font-size: 20px;
+    font-family: 'Lora';
+    color: var(--clr-black75);
+}
+
+.about__btn{
+    
+    align-self: flex-start;
+    margin-top: 2rem;
+    margin-left: 6.2rem;
+    background-color: white;
+    border: 1.5px solid var(--clr-primary);
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    color: var(--clr-primary);
+    font-size: 20px;
+    font-family: 'Lora';
+    font-weight: 500;
+    box-shadow: 0px 4px 4px 0px rgb(234, 234, 234);
+    transition: 0.3s linear all;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__btn:hover{
+    background-color: var(--clr-primary);
+    color: white;
+    transform: translateY(-10px);
+}
+@media (max-width:1024px) {
+   .about__img{
+    width: 100%;
+   }
+   .about__content{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .about__btn{
+        margin-left: 0;
+        align-self: center;
+    }
+}
+@media (max-width:640px) {
+    
+    .about__title{
+        font-size: 36px;
+        margin-bottom: 2rem;
+    }
+    .about__desc{
+        font-size: 16px;
+        max-width: 50ch;
+    }
+}
+/*@media (min-width:475px) {
+    .container{
+        max-width: 475px;
+    }
+}
+@media (min-width:640px) {
+    .container{
+        max-width: 640px;
+    }
+}
+@media (min-width:768px) {
+    .container{
+        max-width: 768px;
+    }
+}
+@media (min-width:1024px) {
+    .container{
+        max-width: 1024px;
+    }
+    .section{
+        margin-top: 10rem;
+    }
+}
+@media (min-width:1280px) {
+    .container{
+        max-width: 1280px;
+    }
+}
+@media (min-width:1536px) {
+    .container{
+        max-width: 1536px;
+    }
+}*/

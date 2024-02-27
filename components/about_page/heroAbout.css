@@ -1,0 +1,112 @@
+.heroAbout{
+    background-image: url('floral-transformed.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18.813rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heroAbout__title{
+    margin-top: 10px;
+    font-size: 40px;
+    max-width: 685px;
+    color: var(--clr-black);
+}
+.heroAbout__desc{
+    font-family: 'Lora';
+  
+    color: var(--clr-black75);
+    margin-top: 10px;
+    font-size: 20px;
+    max-width: 60ch;
+    text-align: center;
+}
+.heroAbout__btn{
+    width: 281px;
+    height: 50px;
+    margin-left: 51px;
+    margin-top: 75px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    font-family: 'Lora';
+    color: var(--clr-black);
+}
+@media (max-width:1024px) {
+   
+    .heroAbout__title{
+        font-size: 30px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .heroAbout__desc{
+        font-size: 16px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .hero__btn{
+        margin-left: 0px;
+    }
+    .hero{
+       align-items: center;
+       justify-content: center;
+    }
+}
+@media (max-width:640px) {
+   
+    .hero__title{
+        font-size: 40px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .hero__desc{
+        font-size: 14px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .hero__btn{
+        margin-left: 0px;
+    }
+    .hero{
+       align-items: center;
+       justify-content: center;
+    }
+}
+/*@media (min-width:475px) {
+    .container{
+        max-width: 475px;
+    }
+}
+@media (min-width:640px) {
+    .container{
+        max-width: 640px;
+    }
+}
+@media (min-width:768px) {
+    .container{
+        max-width: 768px;
+    }
+}
+@media (min-width:1024px) {
+    .container{
+        max-width: 1024px;
+    }
+    .section{
+        margin-top: 10rem;
+    }
+}
+@media (min-width:1280px) {
+    .container{
+        max-width: 1280px;
+    }
+}
+@media (min-width:1536px) {
+    .container{
+        max-width: 1536px;
+    }
+}*/

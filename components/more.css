@@ -1,0 +1,33 @@
+.more{
+    background-image: var(--clr-gradient);
+    color: white;
+    height: 22.688rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.more__desc{
+    width: 45%;
+    font-family: 'Lora';
+    font-size: 24px;
+}
+@media (max-width:1024px) {
+    .more{
+        gap: 1rem;
+    }
+    .more__desc{
+        width: 80%;
+        font-family: 'Lora';
+        font-size: 18px;
+    }
+}
+@media (max-width:768px) {
+    
+    .more__desc{
+        width: 80%;
+        font-family: 'Lora';
+        font-size: 14px;
+    }
+}

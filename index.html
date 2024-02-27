@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Cvjecarna Kala</title>
+  </head>
+  <body>
+    <script type="module" src="./src/main.js"></script>
+    <header class="header container">
+      <nav>
+        <ul class="header__nav">
+          <li class="header__link"><a href="index.html">HOME</a></li>
+          <li class="header__link"><a href="about.html">O NAMA</a></li>
+          <li class="header__link"><a href="proizvodi.html">PROIZVODI</a></li>
+          <li class="header__link">KONTAKT</li>
+        </ul>
+      </nav>
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        
+      </button>
+    </header>
+    <main>
+      <section class="hero container">
+        <h1 class="hero__title">Dobro došli u cvjećarnu Kala</h1>
+        <p class="hero__desc">Dobrodošli u Cvjećarnicu Kala - Vaša oaza ljepote i svježine!</p>
+        <button class="hero__btn">Learn more</button>
+      </section>
+      <section class="about container section">
+        <div class="about__img">
+          <div class="about__gallery">
+            <button class="promjeni" id="prom">Promjeni</button>
+            <button class="promjeni" id="promDva">Drugi botun</button>
+          </div>
+           
+        </div>
+        <div class="about__content">
+          <h1 class="about__title">O NAMA</h1>
+          <p class="about__desc">Cvjećarnica Kala je dom stručnosti, gdje se svaki cvijettretira kao unikatno umjetničko djelo. Naš tim iskusnih cvjećara, s ljubavljuprema detaljima, kombinira tradiciju s modernim pristupom, stvarajući cvjetne aranžmane koji oduzimaju dah. Nudimo široku paletu usluga, uključujućipersonalizirane bukete, cvjetne dekoracije za posebne događaje, vjenčanja i jošmnogo toga. Svaki cvijet koji napusti Cvjećarnicu Kala nosi sa sobom priču elegancije i svježine.</p>
+          <a href="" class="about__btn">Saznajte više</a>
+          
+        </div>
+      </section>
+      <section class="proizvodi container section">
+          <h1 class="proizvodi__title">PROIZVODI</h1>
+          <div class="proizvodi__content">
+            <div class="proizvodi__cont">
+                <img src="./public/flower-bouquet.png" alt="" class="flower">
+                <p class="desc">Raznolikost naše ponude odražava se u bogatstvu boja, oblika i vrsta cvijeća koje nudimo.</p>
+                <button>Više o našim proizvodima</button>
+            </div>
+            <div class="proizvodi__cont">
+              <img src="./public/flower-bouquet.png" alt="" class="flower">
+              <p class="desc">Raznolikost naše ponude odražava se u bogatstvu boja, oblika i vrsta cvijeća koje nudimo.</p>
+              <button>Više o našim proizvodima</button>
+            </div>
+            <div class="proizvodi__cont">
+              <img src="./public/flower-bouquet.png" alt="" class="flower">
+              <p class="desc">Raznolikost naše ponude odražava se u bogatstvu boja, oblika i vrsta cvijeća koje nudimo.</p>
+              <button>Više o našim proizvodima</button>
+            </div>
+          </div>
+      </section>
+      <section class="more container section">
+          <p class="more__desc">
+            Smještena u srcu našeg grada, Cvjećarnica Kala je više odobične cvjećarnice - to je mjesto gdje se rađaju čarolija i nezaboravnitrenuci. Naša misija je oblikovati vaše emocije kroz cvjetnu umjetnost,stvarajući aranžmane koji pričaju priče i bude sjećanja. Pridružite nam se uputovanju kroz boje, mirise i ljepotu cvijeta u Cvjećarnici Kala.
+          </p>
+          <p class="more__desc">
+            Ova mala oda Cvjećarnici Kala samo je mali uvid u bogatstvoiskustva koje nudimo. Pridružite nam se u istraživanju svijeta cvjetneelegancije i dopustite nam da zajedno stvorimo trenutke koji će ostati urezaniu vašem sjećanju.
+          </p>
+      </section>
+      <section class="gallery container section">
+          <h1 class="gallery__title">Galerija</h1>
+          <p class="gallery__desc">Istražite našu galeriju slika</p>
+          <div class="gallery__cont">
+            <button id="lijevo">Lijevo</button>
+            <button id="desno">Desno</button>
+          </div>
+      </section>
+      <section class="contact container section">
+        <div class="contact__info">
+          <h1 class="contact__title">Kontakt</h1>
+          <p class="contact__desc"> Vaša povezanost s nama važna nam je kao i vaši cvjetnitrenuci. Posjetite nas osobno na našoj lokaciji [Adresa], nazovite nas na [Brojtelefona] ili nam pišite na [E-mail adresa]. Naš ljubazan tim stručnjaka uvijek je spreman odgovoriti na vaša pitanja, pružiti savjet ili zajedno s vamao blikovati posebnu narudžbu. Cvjećarnica Kala nije samo prodajno mjesto, većmjesto gdje stvaramo veze kroz cvjetnu magiju.</p>
+        </div>
+          
+          <div class="contact__cnt">
+            <input type="text" placeholder="email" class="int">
+            <input type="text" placeholder="phone" class="int">
+            <input type="text" placeholder="full name" class="int">
+            <input type="text" placeholder="address" class="int"> 
+            <textarea name="" id="" cols="30" rows="10" class="area" placeholder="Vaš zahtjev"></textarea>
+          </div>
+          
+      </section>
+    </main>
+  </body>
+</html>

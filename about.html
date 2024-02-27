@@ -12,19 +12,27 @@
 </head>
 <body>
     <script type="module" src="./src/main.js"></script>
-    <header class="header container">
+    <header class="header container" id="glava">
       <nav>
         <ul class="header__nav">
+          <li class="header__link" id="big"><a href="./index.html">HOME</a></li>
+          <li class="header__link"  id="big"><a href="./about.html">O NAMA</a></li>
+          <li class="header__link"  id="big"><a href="./proizvodi.html">PROIZVODI</a></li>
+          <li class="header__link"  id="big">KONTAKT</li>
+        </ul>
+        <ul class="mobile__nav">
           <li class="header__link"><a href="./index.html">HOME</a></li>
           <li class="header__link"><a href="./about.html">O NAMA</a></li>
           <li class="header__link"><a href="./proizvodi.html">PROIZVODI</a></li>
           <li class="header__link">KONTAKT</li>
         </ul>
       </nav>
+    
       <button class="header__bars">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
+        
       </button>
     </header>
     <main>

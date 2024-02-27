@@ -13,5 +13,10 @@ import '../components/utils.css';
 
 import { promjeniSliku } from './switch';
 import { promjeniSlikuGalerije } from './switch';
-promjeniSliku();
-promjeniSlikuGalerije();
+import { deployMenu } from './menu.js';
+document.addEventListener("DOMContentLoaded", function () {
+    deployMenu();
+    promjeniSliku();
+    promjeniSlikuGalerije();
+    
+});

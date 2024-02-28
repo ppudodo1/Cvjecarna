@@ -1,17 +1,37 @@
 .more{
     background-image: var(--clr-gradient);
     color: white;
-    height: 22.688rem;
+    height: 30rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
+    position: relative;
 }
 .more__desc{
     width: 45%;
     font-family: 'Lora';
     font-size: 24px;
+}
+.custom-shape-divider-top-1709117938 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1709117938 svg {
+    position: relative;
+    display: block;
+    width: calc(108% + 1.3px);
+    height: 39px;
+}
+
+.custom-shape-divider-top-1709117938 .shape-fill {
+    fill: #FFFFFF;
 }
 @media (max-width:1024px) {
     .more{
